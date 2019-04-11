@@ -1,4 +1,21 @@
-//var jettiesLine = ['Belinda', 'Will', 'Pishi']
+//var jettiesLine = []
+//after jettiesLine = [1,2,3,4,5]
+//every person gets a # for their position 
+
+let i=1 
+i++ 
+
+function takeANumber(jettiesLine){
+  
+  //jettiesLine.push(1); [1]
+  //jettiesLines.push(2); 
+  
+  jettiesLine.push(i);
+  
+  var string = `Welcome. You are number ${i}.`;
+  return string;
+}
+
 
 function takeANumber(jettiesLine, name){
   jettiesLine.push(name);
